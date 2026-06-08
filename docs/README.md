@@ -1,39 +1,54 @@
 # Global Migratory Stopover Environmental Niches
 
-This repository contains data and scripts associated with the manuscript:
+Data and code repository accompanying the manuscript:
 
-"Environmental niche differentiation of migratory bird stopover sites revealed by remote sensing and explainable machine learning"
+Environmental niche differentiation of migratory bird stopover sites revealed by remote sensing and explainable machine learning
 
 ## Repository structure
 
 data/
-Processed environmental datasets
+Environmental variables and stopover datasets
 
 code/
-Python scripts for analyses
+Python scripts for preprocessing, machine learning, and visualization
 
 figures/
-Figures presented in the manuscript
+Main figures and supplementary figures
 
-## Methods
+docs/
+Data and code availability statements
 
-- Principal Component Analysis (PCA)
-- PERMANOVA
-- Random Forest
-- SHAP
+## Workflow
 
-## Earth Observation datasets
+01_data_preparation.py
 
-- MODIS LST
-- MODIS NDVI
-- VIIRS Nighttime Lights
-- ESA WorldCover
-- JRC Global Surface Water
-- WorldPop
-- SRTM DEM
-- WDPA
+↓
 
-## Contact
+02_multivariate_statistics.py
 
-Yan Gui
-Sichuan Technology and Business University
+↓
+
+03_random_forest_shap_analysis.py
+
+↓
+
+04_visualization_figures.py
+
+## Software environment
+
+Python 3.10
+
+Main packages:
+
+pandas
+numpy
+scikit-learn
+shap
+matplotlib
+seaborn
+scipy
+scikit-bio
+
+## Citation
+
+If using these data or code, please cite the associated publication.
