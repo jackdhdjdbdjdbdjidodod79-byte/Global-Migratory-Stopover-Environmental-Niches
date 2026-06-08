@@ -1,3 +1,5 @@
-# Code
+# Input:
+# stopover_environmental_matrix.csv
 
-Python scripts used for data processing and analysis.
+# Output:
+# analysis_dataset.csv
